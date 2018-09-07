@@ -1,11 +1,11 @@
 def translate(list):
     words = {
-		"hello" : 'hallå',
-		"world" : 'värld',
-		"my" : 'min',
-		"name" : 'namn',
-		"is" : 'är',
-	}
+        "hello": 'hallå',
+        "world": 'värld',
+        "my": 'min',
+        "name": 'namn',
+        "is": 'är'
+    }
     transalted = []
     for i in list:
         x = i.lower()
@@ -15,10 +15,11 @@ def translate(list):
             transalted.append(i)
     return transalted
 
+
 n = int(input('Enter the length of list\n'))
 print('Enter the words of list\n')
 list = []
-while ( n > 0 ):
+while (n > 0):
     list.append(input())
     n -= 1
 print('Translated List is ', translate(list))

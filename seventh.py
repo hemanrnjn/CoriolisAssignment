@@ -4,5 +4,7 @@ def reverse(str):
         s = i + s
     return s
 
-str = input('Enter a string\n')
-print(reverse(str))
+
+if __name__ == '__main__':
+    str = input('Enter a string\n')
+    print(reverse(str))

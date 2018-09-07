@@ -1,13 +1,14 @@
 def check_vowel(ch):
     char = ch.lower()
-    if char == 'a' or char == 'e' or char == 'i' or char == 'o' or char == 'u':
+    list = ['a', 'e', 'i', 'o', 'u']
+    if char in list:
         print('True')
     else:
         print('False')
 
 ch = ''
 while True:
-    ch = input('Enter a single character')
+    ch = input('Enter a single character\n')
     if (len(ch) == 1 and ch.isalpha()):
         break
     else:

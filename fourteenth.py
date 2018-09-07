@@ -5,7 +5,7 @@ def mapping(list):
 n = int(input('Enter the length of list\n'))
 print('Enter the elements of list\n')
 list = []
-while ( n > 0 ):
+while (n > 0):
     list.append(input())
     n -= 1
 mapping(list)

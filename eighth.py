@@ -10,9 +10,14 @@ def is_Palindrome(str):
             break
         c += 1
     if f == 1:
-        print('Not Palindrome')
+        return False
     else:
-        print('Palindrome')
+        return True
 
-str = input('Enter a string\n')
-is_Palindrome(str)
+
+if __name__ == '__main__':
+    str = input('Enter a string\n')
+    if is_Palindrome(str):
+        print('Palindrome')
+    else:
+        print('Not Palindrome')

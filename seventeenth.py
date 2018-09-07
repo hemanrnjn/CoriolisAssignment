@@ -11,9 +11,14 @@ def phrase_palindrome(string):
             break
         c += 1
     if f == 1:
-        print('Not Palindrome')
+        return False
     else:
-        print('Palindrome')
+        return True
 
-string = input('Enter a string\n')
-phrase_palindrome(string)
+
+if __name__ == '__main__':
+    string = input('Enter a string\n')
+    if phrase_palindrome(string):
+        print('Palindrome')
+    else:
+        print('Not Palindrome')

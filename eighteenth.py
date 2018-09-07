@@ -14,5 +14,6 @@ def pangram(string):
     else:
         print('Given string is Pangram')
 
+
 string = input('Enter a string\n')
 pangram(string)

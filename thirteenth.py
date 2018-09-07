@@ -8,8 +8,8 @@ def max_in_list(list):
 n = int(input('Enter the length of list\n'))
 print('Enter the elements of list\n')
 list = []
-while ( n > 0 ):
+while (n > 0):
     x = int(input())
     list.append(x)
     n -= 1
-print ('Max number in given list is ', max_in_list(list))
+print('Max number in given list is ', max_in_list(list))

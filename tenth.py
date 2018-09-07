@@ -1,4 +1,4 @@
-# import ninth as isMember
+import ninth as isMember
 
 n1 = int(input('Enter the length of first list and its elements\n'))
 list1 = []
@@ -14,16 +14,10 @@ while (n2 > 0):
 
 f = 0
 
-# for i in list1:
-#     if isMember.is_Member(i, list2):
-#         f = 1
-#         break
-
 for i in list1:
-    for j in list2:
-        if i == j:
-            f = 1
-            break
+    if isMember.is_Member(i, list2):
+        f = 1
+        break
 
 if f == 1:
     print('Intersects')

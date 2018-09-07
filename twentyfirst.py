@@ -7,5 +7,6 @@ def char_freq(string):
             charDict[i] = 1
     return charDict
 
+
 string = input('Enter a string\n')
 print(char_freq(string))

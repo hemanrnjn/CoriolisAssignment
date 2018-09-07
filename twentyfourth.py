@@ -16,5 +16,6 @@ def make_3sg_form(verb):
     else:
         return verb + 's'
 
+
 verb = input('Enter a verb\n')
 print(make_3sg_form(verb))

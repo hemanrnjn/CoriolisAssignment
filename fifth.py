@@ -2,7 +2,8 @@ def translate(str):
     string = ''
     for i in str:
         ch = i.lower()
-        if (ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u' or ch == ' '):
+        list = ['a', 'e', 'i', 'o', 'u']
+        if ch in list:
             string += i
         else:
             string += i + 'o' + i
