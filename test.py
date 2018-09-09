@@ -1,2 +1,2 @@
 x = 'Hello'
-print(x[0:(len(x)-1)])
+print(x[0:0] + x[1:len(x)])
