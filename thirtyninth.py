@@ -18,7 +18,7 @@ while True:
     n = int(input('Take a guess\n'))
     res = guessing_game(n, rand_num)
     if res == 'correct':
-        print('Good job, ', name, '! You guessed my number in ', c, ' guesses!')
+        print('Good job, ', name, '! You guessed in ', c, ' guesses!')
         break
     else:
         print(guessing_game(n, rand_num))
