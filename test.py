@@ -1,2 +1,6 @@
-x = 'Hello'
-print(x[0:0] + x[1:len(x)])
+import urllib.request as urlLib
+
+
+response = urlLib.urlopen('http://www.puzzlers.org/pub/wordlists/unixdict.txt')
+html = response.read()
+print(html)
